@@ -1,0 +1,152 @@
+.admissions-title {
+  font-size: 36px;          /* adjust size as needed */
+  font-weight: bold;
+  color: #0a192f;           /* text color */
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;    /* strip only behind the text */
+  padding: 5px 15px;        /* adds space around text inside strip */
+  background: gold;          /* strip color */
+  border-radius: 5px;       /* optional rounded edges */
+}
+/* Add strip behind text */
+.admissions-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;   /* adjust vertical position */
+  width: 100%;
+  height: 10px;  /* thickness of strip */
+  background: gold;  /* strip color */
+  z-index: -1;   /* behind the text */
+  border-radius: 5px; /* optional: rounded strip */
+}
+
+.admissions-subtitle {
+  font-size: 22px;
+  color: #0a192f;
+  margin-bottom: 30px;
+}
+
+.admission-mode {
+  margin-bottom: 40px;
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+}
+
+.accordion-btn {
+  width: 100%;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #f4f7fb;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #0a192f;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 20px;
+  background: #ffffff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+}
+
+.accordion-content.open {
+  max-height: 200px; /* same height for all */
+  padding: 15px 20px;
+}
+
+.accordion-content p {
+  margin: 0;
+  color: #0a192f; /* text visible */
+  line-height: 1.6;
+  font-size: 16px;
+}
+.admission-mode h3 {
+  margin-bottom: 15px;  /* adds space below the heading */
+  font-size: 24px;
+  color: #0a192f;       /* make it visible */
+}
+/* Scholarship cards styling */
+.scholarship-section {
+  margin-top: 50px;
+}
+
+.scholarship-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.scholarship-card {
+  background: #0a192f;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.scholarship-card h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: gold;
+}
+
+.scholarship-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scholarship-card th,
+.scholarship-card td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+.scholarship-card th {
+  background: rgba(255, 215, 0, 0.2); /* light gold */
+  color: gold;
+}
+/* Moving Strip */
+.cucet-strip {
+  width: 100%;
+  background: linear-gradient(90deg, #0b1430, #1a1f3b);
+  overflow: hidden;
+  padding: 8px 0;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.cucet-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcc00;
+  position: relative;
+  animation: moveText 12s linear infinite;
+}
+
+
+@keyframes moveText {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

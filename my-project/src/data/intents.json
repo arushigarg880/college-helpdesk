@@ -1,0 +1,1010 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good evening",
+      "good afternoon",
+      "hii",
+      "heyy",
+      "hello there",
+      "hey there"
+    ],
+    "responses": [
+      "Hello! I am your College Helpdesk Assistant. How can I help you today?"
+    ],
+    "keywords": ["hi", "hello", "hey"],
+    "keyword_groups": [["good", "morning"], ["good", "evening"], ["good", "afternoon"]]
+  },
+  {
+    "tag": "admission",
+    "patterns": [
+      "admission inquiry",
+      "how to get admission",
+      "admission process",
+      "how do i apply",
+      "how do i apply to this college",
+      "how can i apply",
+      "application process",
+      "steps for admission",
+      "can i apply online",
+      "how to apply for admission",
+      "college admission procedure",
+      "how can i join this college",
+      "how to join this college",
+      "what is the admission procedure",
+      "how can i get admission",
+      "how to take admission",
+      "where to apply for admission",
+      "admission form",
+      "admission last date",
+      "admission eligibility",
+      "documents required for admission",
+      "what documents are needed for admission",
+      "can i get direct admission",
+      "admission requirements",
+      "online admission process"
+    ],
+    "responses": [
+      "For admission, please visit the admission office or official portal, fill the application form, upload required documents, and complete fee payment."
+    ],
+    "keywords": ["admission", "apply"],
+    "keyword_groups": [["apply", "college"], ["admission", "process"], ["join", "college"], ["admission", "form"]]
+  },
+  {
+    "tag": "admission_documents",
+    "patterns": [
+      "documents required for admission",
+      "admission documents",
+      "what documents are needed for admission",
+      "which documents should i bring for admission",
+      "certificate required for admission",
+      "required documents for college admission"
+    ],
+    "responses": [
+      "For admission, students generally need educational certificates, identity proof, photographs, and other documents as specified by the admission office. Please verify the latest list on the official portal."
+    ],
+    "keywords": ["documents", "admission documents"],
+    "keyword_groups": [["documents", "admission"], ["required", "documents", "admission"]]
+  },
+  {
+    "tag": "admission_eligibility",
+    "patterns": [
+      "admission eligibility",
+      "eligibility for admission",
+      "who can apply for admission",
+      "minimum marks for admission",
+      "admission criteria",
+      "am i eligible for admission"
+    ],
+    "responses": [
+      "Admission eligibility depends on the course and official criteria. Please check the admission brochure or official portal for the latest requirements."
+    ],
+    "keywords": ["eligibility", "criteria"],
+    "keyword_groups": [["admission", "eligibility"], ["admission", "criteria"]]
+  },
+  {
+    "tag": "fee_structure",
+    "patterns": [
+      "what is the fee structure",
+      "tell me fee details",
+      "semester fee",
+      "college fee",
+      "fee payment",
+      "how much is the fee",
+      "what are the charges",
+      "payment details",
+      "tuition fee details",
+      "how much do i need to pay",
+      "fees related",
+      "college fees",
+      "semester fees",
+      "course fees",
+      "annual fee",
+      "yearly fee",
+      "fee breakup",
+      "fee amount",
+      "total fee",
+      "how much are the college fees"
+    ],
+    "responses": [
+      "The fee structure depends on the course and semester. Please check the accounts section or official portal for exact details."
+    ],
+    "keywords": ["fee", "fees", "charges", "payment"],
+    "keyword_groups": [["semester", "fee"], ["fee", "structure"], ["course", "fees"]]
+  },
+  {
+    "tag": "fee_deadline",
+    "patterns": [
+      "fee deadline",
+      "last date for fee payment",
+      "when is fee submission date",
+      "fee payment last date",
+      "due date for fees",
+      "when do i have to pay fees"
+    ],
+    "responses": [
+      "Fee payment deadlines are announced by the accounts office or administration. Please check official notices or the student portal for the latest due date."
+    ],
+    "keywords": ["deadline", "due date"],
+    "keyword_groups": [["fee", "deadline"], ["fee", "payment", "last", "date"]]
+  },
+  {
+    "tag": "fee_receipt",
+    "patterns": [
+      "fee receipt",
+      "how to get fee receipt",
+      "payment receipt",
+      "where can i download fee receipt",
+      "college fee receipt",
+      "receipt for fee payment"
+    ],
+    "responses": [
+      "For fee receipts or payment proof, please contact the accounts office or check the student portal if receipt download is available."
+    ],
+    "keywords": ["receipt"],
+    "keyword_groups": [["fee", "receipt"], ["payment", "receipt"]]
+  },
+  {
+    "tag": "refund_policy",
+    "patterns": [
+      "refund policy",
+      "fee refund",
+      "how to get refund",
+      "refund process",
+      "when will fee refund come",
+      "refund related query"
+    ],
+    "responses": [
+      "For refunds, please contact the accounts office and follow the official refund policy and process."
+    ],
+    "keywords": ["refund"],
+    "keyword_groups": [["fee", "refund"], ["refund", "process"]]
+  },
+  {
+    "tag": "accounts_office",
+    "patterns": [
+      "accounts office",
+      "where is accounts office",
+      "accounts related",
+      "fee receipt",
+      "how to get fee receipt",
+      "payment receipt",
+      "who handles fees",
+      "accounts department",
+      "college account office",
+      "account section timing",
+      "accounts office timing",
+      "where can i pay fees",
+      "accounts query"
+    ],
+    "responses": [
+      "For fee receipts, payment confirmation, refunds, and account-related queries, please contact the accounts office during working hours."
+    ],
+    "keywords": ["accounts", "receipt", "refund"],
+    "keyword_groups": [["accounts", "office"], ["account", "section"], ["accounts", "related"]]
+  },
+  {
+    "tag": "scholarship",
+    "patterns": [
+      "scholarship details",
+      "how to apply scholarship",
+      "financial aid",
+      "scholarship form",
+      "merit scholarship",
+      "need based scholarship",
+      "grant information",
+      "is scholarship available",
+      "scholarship amount",
+      "scholarship eligibility",
+      "scholarship last date",
+      "how can i get scholarship",
+      "what scholarships are available",
+      "fee concession"
+    ],
+    "responses": [
+      "Scholarship details are shared by the administration or scholarship cell. Please keep checking official notices and the scholarship portal."
+    ],
+    "keywords": ["scholarship", "grant"],
+    "keyword_groups": [["financial", "aid"], ["apply", "scholarship"], ["merit", "scholarship"]]
+  },
+  {
+    "tag": "scholarship_status",
+    "patterns": [
+      "scholarship status",
+      "how to check scholarship status",
+      "when will scholarship come",
+      "scholarship payment status",
+      "scholarship approved or not"
+    ],
+    "responses": [
+      "For scholarship status updates, please check the scholarship portal or contact the scholarship cell."
+    ],
+    "keywords": ["status"],
+    "keyword_groups": [["scholarship", "status"], ["scholarship", "payment"]]
+  },
+  {
+    "tag": "exam_schedule",
+    "patterns": [
+      "when are exams",
+      "exam date",
+      "exam schedule",
+      "tell me exam timetable",
+      "date sheet",
+      "datesheet",
+      "test schedule",
+      "when is my exam",
+      "semester exam timing",
+      "exam related",
+      "exam routine",
+      "exam calendar",
+      "when will datesheet come",
+      "where can i see datesheet",
+      "mid sem date sheet",
+      "end sem date sheet",
+      "university exam date"
+    ],
+    "responses": [
+      "Exam schedule or date sheet is released by the examination branch. Please check the exam notice board or student portal for the latest updates."
+    ],
+    "keywords": ["exam", "datesheet", "date sheet", "test"],
+    "keyword_groups": [["exam", "schedule"], ["exam", "date"], ["date", "sheet"], ["exam", "timetable"]]
+  },
+  {
+    "tag": "exam_center",
+    "patterns": [
+      "exam center",
+      "where is my exam center",
+      "exam venue",
+      "exam room details",
+      "where will exam be held"
+    ],
+    "responses": [
+      "Exam center or venue details are usually shared in the date sheet, admit card, or official notice."
+    ],
+    "keywords": ["center", "venue"],
+    "keyword_groups": [["exam", "center"], ["exam", "venue"]]
+  },
+  {
+    "tag": "admit_card",
+    "patterns": [
+      "admit card",
+      "exam admit card",
+      "how to download admit card",
+      "where can i get admit card",
+      "hall ticket",
+      "exam hall ticket"
+    ],
+    "responses": [
+      "Admit card or hall ticket details are provided by the examination branch or student portal. Please check official updates."
+    ],
+    "keywords": ["admit card", "hall ticket"],
+    "keyword_groups": [["download", "admit", "card"], ["exam", "admit", "card"]]
+  },
+  {
+    "tag": "result",
+    "patterns": [
+      "result date",
+      "when will result come",
+      "semester result",
+      "exam result",
+      "marks result",
+      "grade result",
+      "score card",
+      "result related",
+      "when will results be declared",
+      "where can i see my result",
+      "how to check result",
+      "result issue",
+      "backlog result",
+      "internal marks result",
+      "show result info"
+    ],
+    "responses": [
+      "Results are published by the examination branch on the official portal or notice board. For issues in result, please contact the exam section."
+    ],
+    "keywords": ["result", "marks", "grade", "score"],
+    "keyword_groups": [["exam", "result"], ["check", "result"], ["result", "issue"]]
+  },
+  {
+    "tag": "revaluation",
+    "patterns": [
+      "revaluation process",
+      "rechecking of answer sheet",
+      "how to apply for revaluation",
+      "result revaluation",
+      "marks rechecking",
+      "reappear marks issue",
+      "paper checking issue",
+      "can i apply for rechecking"
+    ],
+    "responses": [
+      "For revaluation or rechecking, please contact the examination branch and follow the official application process within the deadline."
+    ],
+    "keywords": ["revaluation", "rechecking"],
+    "keyword_groups": [["answer", "sheet", "rechecking"], ["apply", "revaluation"]]
+  },
+  {
+    "tag": "backlog",
+    "patterns": [
+      "backlog exam",
+      "reappear exam",
+      "supplementary exam",
+      "what about backlog paper",
+      "backlog registration",
+      "how to clear backlog"
+    ],
+    "responses": [
+      "For backlog or reappear exams, please check examination notices for registration, dates, and eligibility details."
+    ],
+    "keywords": ["backlog", "reappear", "supplementary"],
+    "keyword_groups": [["backlog", "exam"], ["reappear", "exam"]]
+  },
+  {
+    "tag": "attendance",
+    "patterns": [
+      "attendance criteria",
+      "minimum attendance",
+      "attendance shortage",
+      "how much attendance required",
+      "required attendance percentage",
+      "can i sit in exam with low attendance",
+      "attendance rules",
+      "attendance condonation",
+      "short attendance issue"
+    ],
+    "responses": [
+      "Attendance requirements depend on college policy. Usually students must maintain minimum required attendance to appear in exams."
+    ],
+    "keywords": ["attendance", "shortage", "percentage"],
+    "keyword_groups": [["minimum", "attendance"], ["short", "attendance"]]
+  },
+  {
+    "tag": "hostel",
+    "patterns": [
+      "hostel facility",
+      "hostel fee",
+      "hostel rules",
+      "how to apply for hostel",
+      "room allotment",
+      "mess facility",
+      "is hostel available",
+      "hostel accommodation",
+      "hostel regarding issues",
+      "hostel related",
+      "hostel problem",
+      "hostel complaint",
+      "hostel timing",
+      "hostel curfew",
+      "room change in hostel",
+      "hostel seat availability",
+      "girls hostel details",
+      "boys hostel details"
+    ],
+    "responses": [
+      "Hostel-related details such as fee, room allotment, and rules are available through the hostel office. For hostel issues or complaints, please contact hostel administration."
+    ],
+    "keywords": ["hostel", "mess", "accommodation"],
+    "keyword_groups": [["hostel", "fee"], ["apply", "hostel"], ["hostel", "issue"], ["hostel", "complaint"]]
+  },
+  {
+    "tag": "mess_food",
+    "patterns": [
+      "mess menu",
+      "hostel mess timing",
+      "food in hostel",
+      "mess complaint",
+      "mess charges",
+      "mess facility details"
+    ],
+    "responses": [
+      "For mess timing, menu, charges, or food complaints, please contact the hostel or mess administration."
+    ],
+    "keywords": ["mess", "food"],
+    "keyword_groups": [["mess", "menu"], ["mess", "timing"], ["mess", "complaint"]]
+  },
+  {
+    "tag": "library",
+    "patterns": [
+      "library timing",
+      "when is library open",
+      "library hours",
+      "can i use library today",
+      "reading room timing",
+      "book issue timing",
+      "library card",
+      "library fine",
+      "book return date",
+      "can i borrow books"
+    ],
+    "responses": [
+      "The library is generally open during working academic hours. Please confirm exact timing from the library notice board."
+    ],
+    "keywords": ["library", "books"],
+    "keyword_groups": [["library", "timing"], ["reading", "room"], ["book", "issue"]]
+  },
+  {
+    "tag": "transport",
+    "patterns": [
+      "bus timing",
+      "transport facility",
+      "college bus route",
+      "how to use college transport",
+      "pickup point",
+      "drop point",
+      "bus pass details",
+      "transport inquiry",
+      "bus fees",
+      "which bus goes to college",
+      "transport office",
+      "bus route timing"
+    ],
+    "responses": [
+      "Transport details including route, timing, pickup points, and pass information are available through the transport department."
+    ],
+    "keywords": ["bus", "transport", "route"],
+    "keyword_groups": [["bus", "timing"], ["transport", "facility"], ["bus", "route"]]
+  },
+  {
+    "tag": "placement",
+    "patterns": [
+      "placement support",
+      "internship information",
+      "placement cell",
+      "campus placement details",
+      "job opportunities",
+      "company visit details",
+      "placement registration",
+      "placement drive",
+      "placement eligibility",
+      "placement criteria",
+      "placement process",
+      "campus recruitment"
+    ],
+    "responses": [
+      "For placements and internships, please contact the placement cell or check recent notices shared by the training and placement office."
+    ],
+    "keywords": ["placement", "job", "company"],
+    "keyword_groups": [["placement", "cell"], ["campus", "placement"], ["placement", "registration"]]
+  },
+  {
+    "tag": "internship",
+    "patterns": [
+      "internship details",
+      "how to apply for internship",
+      "summer internship",
+      "internship opportunity",
+      "internship registration",
+      "internship certificate",
+      "training letter",
+      "industrial training"
+    ],
+    "responses": [
+      "Internship opportunities are usually shared by the placement or training cell. Please check internship notices and official updates regularly."
+    ],
+    "keywords": ["internship"],
+    "keyword_groups": [["apply", "internship"], ["summer", "internship"]]
+  },
+  {
+    "tag": "id_card",
+    "patterns": [
+      "lost id card",
+      "how to get new id card",
+      "duplicate id card",
+      "student id issue",
+      "id card reissue",
+      "replace id card",
+      "id card not received",
+      "i lost my college id"
+    ],
+    "responses": [
+      "For ID card issues, contact the administration office and submit a reissue request."
+    ],
+    "keywords": ["id card"],
+    "keyword_groups": [["lost", "id", "card"], ["duplicate", "id", "card"], ["reissue", "id", "card"]]
+  },
+  {
+    "tag": "bonafide_certificate",
+    "patterns": [
+      "bonafide certificate",
+      "how to get bonafide certificate",
+      "need bonafide",
+      "bonafide process",
+      "student bonafide document",
+      "study proof certificate",
+      "college bonafide letter"
+    ],
+    "responses": [
+      "You can apply for a bonafide certificate through the administration office or student services section."
+    ],
+    "keywords": ["bonafide"],
+    "keyword_groups": [["bonafide", "certificate"]]
+  },
+  {
+    "tag": "migration_certificate",
+    "patterns": [
+      "migration certificate",
+      "how to get migration certificate",
+      "need migration document",
+      "migration process",
+      "college migration letter"
+    ],
+    "responses": [
+      "Migration certificate requests are processed by the administration or records office. Please submit the required application and documents."
+    ],
+    "keywords": ["migration"],
+    "keyword_groups": [["migration", "certificate"]]
+  },
+  {
+    "tag": "character_certificate",
+    "patterns": [
+      "character certificate",
+      "how to get character certificate",
+      "conduct certificate",
+      "need character certificate"
+    ],
+    "responses": [
+      "For character or conduct certificates, please contact the administration office or student services section."
+    ],
+    "keywords": ["character certificate", "conduct certificate"],
+    "keyword_groups": [["character", "certificate"], ["conduct", "certificate"]]
+  },
+  {
+    "tag": "document_verification",
+    "patterns": [
+      "document verification",
+      "verify my documents",
+      "admission document check",
+      "certificate verification",
+      "verification process",
+      "original document verification",
+      "marksheet verification"
+    ],
+    "responses": [
+      "For document verification, please visit the administration or admission office with your original and photocopied documents."
+    ],
+    "keywords": ["verification", "documents"],
+    "keyword_groups": [["document", "verification"], ["certificate", "verification"]]
+  },
+  {
+    "tag": "timetable",
+    "patterns": [
+      "class timetable",
+      "class schedule",
+      "lecture schedule",
+      "time table",
+      "daily routine",
+      "subject timing",
+      "period schedule",
+      "weekly timetable",
+      "where can i see class timetable"
+    ],
+    "responses": [
+      "The class timetable is usually shared by the department or available on the student portal or notice board."
+    ],
+    "keywords": ["timetable", "routine"],
+    "keyword_groups": [["class", "timetable"], ["class", "schedule"], ["lecture", "schedule"]]
+  },
+  {
+    "tag": "holiday_list",
+    "patterns": [
+      "holiday list",
+      "college holidays",
+      "vacation schedule",
+      "leave calendar",
+      "upcoming holidays",
+      "academic calendar holidays",
+      "when is college closed"
+    ],
+    "responses": [
+      "The holiday list is released by the college administration and is available on the official academic calendar."
+    ],
+    "keywords": ["holiday", "vacation", "leave"],
+    "keyword_groups": [["holiday", "list"], ["college", "holidays"]]
+  },
+  {
+    "tag": "semester_registration",
+    "patterns": [
+      "semester registration",
+      "how to register for semester",
+      "course registration",
+      "enroll for subjects",
+      "registration dates",
+      "register my semester",
+      "how to select subjects",
+      "subject registration"
+    ],
+    "responses": [
+      "Semester registration details are shared by the academic office. Please follow the registration schedule and portal instructions."
+    ],
+    "keywords": ["registration"],
+    "keyword_groups": [["semester", "registration"], ["course", "registration"], ["subject", "registration"]]
+  },
+  {
+    "tag": "syllabus",
+    "patterns": [
+      "syllabus",
+      "course syllabus",
+      "subject syllabus",
+      "where can i find syllabus",
+      "semester syllabus",
+      "curriculum",
+      "course outline"
+    ],
+    "responses": [
+      "The syllabus is usually available on the department page, student portal, or from faculty members."
+    ],
+    "keywords": ["syllabus"],
+    "keyword_groups": [["subject", "syllabus"], ["course", "syllabus"]]
+  },
+  {
+    "tag": "assignment",
+    "patterns": [
+      "assignment submission",
+      "homework submission",
+      "where to submit assignment",
+      "assignment deadline",
+      "project submission date",
+      "upload assignment",
+      "internal assignment",
+      "pending assignment"
+    ],
+    "responses": [
+      "Assignment submission details and deadlines are generally shared by the respective faculty or on the class portal."
+    ],
+    "keywords": ["assignment", "homework"],
+    "keyword_groups": [["assignment", "deadline"], ["submit", "assignment"]]
+  },
+  {
+    "tag": "staff_related",
+    "patterns": [
+      "staff related",
+      "staff issue",
+      "staff details",
+      "faculty details",
+      "teacher details",
+      "staff contact",
+      "faculty contact",
+      "teacher phone number",
+      "professor email",
+      "hod contact",
+      "department contact",
+      "how to contact staff",
+      "staff number",
+      "faculty phone number",
+      "contact teacher"
+    ],
+    "responses": [
+      "For staff-related queries such as faculty contact, department details, or office support, please check the official college website or contact the department office."
+    ],
+    "keywords": ["staff", "faculty", "teacher", "professor", "hod"],
+    "keyword_groups": [["staff", "related"], ["faculty", "contact"], ["department", "contact"], ["staff", "contact"]]
+  },
+  {
+    "tag": "faculty_contact",
+    "patterns": [
+      "faculty contact",
+      "teacher phone number",
+      "professor email",
+      "hod contact",
+      "department contact",
+      "faculty email",
+      "contact class teacher",
+      "contact hod"
+    ],
+    "responses": [
+      "Faculty and department contact details are generally available on the official college website or department office."
+    ],
+    "keywords": ["faculty", "teacher", "professor", "hod"],
+    "keyword_groups": [["faculty", "contact"], ["department", "contact"], ["professor", "email"]]
+  },
+  {
+    "tag": "office_timing",
+    "patterns": [
+      "office timing",
+      "administration office hours",
+      "accounts office timing",
+      "student office timing",
+      "when is office open",
+      "office closing time",
+      "office opening time",
+      "admin office timing"
+    ],
+    "responses": [
+      "Office timings usually follow standard working hours on working days. Please confirm the exact schedule from the respective office."
+    ],
+    "keywords": ["office"],
+    "keyword_groups": [["office", "timing"], ["office", "hours"], ["office", "open"]]
+  },
+  {
+    "tag": "complaint_cell",
+    "patterns": [
+      "complaint cell",
+      "register complaint",
+      "how to file complaint",
+      "student grievance",
+      "issue complaint",
+      "where to complain",
+      "file grievance",
+      "complaint portal"
+    ],
+    "responses": [
+      "You can file a complaint through the grievance cell, student support desk, or the official complaint mechanism of the college."
+    ],
+    "keywords": ["complaint", "grievance"],
+    "keyword_groups": [["file", "complaint"], ["student", "grievance"]]
+  },
+  {
+    "tag": "anti_ragging",
+    "patterns": [
+      "anti ragging",
+      "ragging complaint",
+      "report ragging",
+      "anti ragging cell",
+      "ragging help",
+      "someone is ragging",
+      "how to complain ragging"
+    ],
+    "responses": [
+      "For anti-ragging support or complaints, immediately contact the anti-ragging cell or college administration."
+    ],
+    "keywords": ["ragging"],
+    "keyword_groups": [["report", "ragging"], ["anti", "ragging"], ["ragging", "complaint"]]
+  },
+  {
+    "tag": "course_change",
+    "patterns": [
+      "change course",
+      "branch change",
+      "department transfer",
+      "how to change stream",
+      "course transfer",
+      "can i change my branch",
+      "stream change process"
+    ],
+    "responses": [
+      "For course or branch change requests, please contact the academic office and check eligibility rules and timelines."
+    ],
+    "keywords": ["transfer"],
+    "keyword_groups": [["change", "course"], ["branch", "change"], ["department", "transfer"]]
+  },
+  {
+    "tag": "leave_application",
+    "patterns": [
+      "leave application",
+      "how to apply for leave",
+      "medical leave",
+      "attendance leave request",
+      "leave approval",
+      "leave form",
+      "student leave request"
+    ],
+    "responses": [
+      "Leave applications are usually submitted to the department, class coordinator, or administration office depending on the policy."
+    ],
+    "keywords": ["leave"],
+    "keyword_groups": [["apply", "leave"], ["leave", "application"], ["medical", "leave"]]
+  },
+  {
+    "tag": "contact_support",
+    "patterns": [
+      "support contact",
+      "helpdesk number",
+      "student support",
+      "contact helpdesk",
+      "need support",
+      "support team contact",
+      "helpdesk email",
+      "student care number"
+    ],
+    "responses": [
+      "You can contact the student helpdesk or administration office for further support and query resolution."
+    ],
+    "keywords": ["helpdesk", "support"],
+    "keyword_groups": [["contact", "helpdesk"], ["student", "support"]]
+  },
+  {
+    "tag": "portal_issue",
+    "patterns": [
+      "student portal login issue",
+      "erp login problem",
+      "cannot login to portal",
+      "website login problem",
+      "portal not working",
+      "student login issue",
+      "portal password reset",
+      "forgot portal password",
+      "erp password issue",
+      "portal access problem"
+    ],
+    "responses": [
+      "For portal login issues, please check your credentials first and then contact technical support or the IT helpdesk."
+    ],
+    "keywords": ["portal", "erp"],
+    "keyword_groups": [["portal", "login"], ["erp", "issue"], ["portal", "password"]]
+  },
+  {
+    "tag": "wifi_issue",
+    "patterns": [
+      "wifi issue",
+      "internet not working",
+      "campus wifi login",
+      "network issue",
+      "wifi password",
+      "college wifi problem",
+      "wifi not connecting",
+      "slow internet on campus",
+      "network not working"
+    ],
+    "responses": [
+      "For Wi-Fi or internet issues, please contact the IT support desk or network administrator."
+    ],
+    "keywords": ["wifi", "internet", "network"],
+    "keyword_groups": [["wifi", "issue"], ["internet", "working"], ["wifi", "password"]]
+  },
+  {
+    "tag": "medical_facility",
+    "patterns": [
+      "medical room",
+      "health center",
+      "first aid in college",
+      "doctor facility",
+      "medical help",
+      "need doctor",
+      "where is medical room",
+      "health issue on campus"
+    ],
+    "responses": [
+      "For medical assistance, please contact the campus medical room, health center, or administration office immediately."
+    ],
+    "keywords": ["medical", "health", "doctor"],
+    "keyword_groups": [["medical", "room"], ["first", "aid"], ["health", "center"]]
+  },
+  {
+    "tag": "canteen",
+    "patterns": [
+      "canteen timing",
+      "food court timing",
+      "cafeteria timing",
+      "canteen menu",
+      "where is canteen",
+      "canteen charges",
+      "food available in canteen",
+      "college cafeteria"
+    ],
+    "responses": [
+      "Canteen and cafeteria details such as timing and availability can be checked on campus notices or by visiting the facility directly."
+    ],
+    "keywords": ["canteen", "cafeteria"],
+    "keyword_groups": [["canteen", "timing"], ["food", "court"]]
+  },
+  {
+    "tag": "sports",
+    "patterns": [
+      "sports facility",
+      "sports ground",
+      "gym details",
+      "indoor games",
+      "outdoor games",
+      "sports registration",
+      "sports room timing",
+      "college gym timing",
+      "sports trial"
+    ],
+    "responses": [
+      "Sports and recreation details are available through the sports office or student activity center."
+    ],
+    "keywords": ["sports", "gym", "games"],
+    "keyword_groups": [["sports", "facility"], ["sports", "registration"], ["gym", "details"]]
+  },
+  {
+    "tag": "lab",
+    "patterns": [
+      "lab timing",
+      "computer lab",
+      "practical lab schedule",
+      "laboratory timing",
+      "which lab is open",
+      "lab room number",
+      "science lab timing",
+      "practical timing"
+    ],
+    "responses": [
+      "Lab schedules and timings are decided by departments and faculty. Please check the department notice board or timetable."
+    ],
+    "keywords": ["lab", "laboratory", "practical"],
+    "keyword_groups": [["lab", "timing"], ["practical", "lab"], ["laboratory", "timing"]]
+  },
+  {
+    "tag": "classroom_location",
+    "patterns": [
+      "classroom location",
+      "where is my class",
+      "room number for class",
+      "class venue",
+      "where is lecture room",
+      "which block is my class in"
+    ],
+    "responses": [
+      "For classroom or lecture venue details, please check your timetable, department notice board, or contact your faculty."
+    ],
+    "keywords": ["classroom", "room number", "venue"],
+    "keyword_groups": [["class", "venue"], ["lecture", "room"], ["room", "number"]]
+  },
+  {
+    "tag": "hostel_leave",
+    "patterns": [
+      "hostel leave",
+      "leave from hostel",
+      "night out permission",
+      "hostel outing permission",
+      "how to apply hostel leave"
+    ],
+    "responses": [
+      "For hostel leave, outing, or night out permission, please follow hostel rules and contact the hostel warden."
+    ],
+    "keywords": ["night out", "warden"],
+    "keyword_groups": [["hostel", "leave"], ["outing", "permission"], ["night", "out"]]
+  },
+  {
+    "tag": "bus_pass",
+    "patterns": [
+      "bus pass",
+      "how to get bus pass",
+      "transport pass",
+      "college bus pass fee",
+      "renew bus pass"
+    ],
+    "responses": [
+      "For bus pass issue, renewal, or charges, please contact the transport office."
+    ],
+    "keywords": ["bus pass", "transport pass"],
+    "keyword_groups": [["bus", "pass"], ["transport", "pass"]]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "thank you",
+      "thanks",
+      "thanks a lot",
+      "thank you so much",
+      "ok thanks",
+      "thx",
+      "thanks buddy"
+    ],
+    "responses": [
+      "You're welcome! Let me know if you need help with anything else."
+    ],
+    "keywords": ["thanks"],
+    "keyword_groups": [["thank", "you"]]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "ok bye",
+      "talk later",
+      "see you later",
+      "bye bye"
+    ],
+    "responses": [
+      "Goodbye! Have a great day."
+    ],
+    "keywords": ["bye", "goodbye"],
+    "keyword_groups": [["see", "you"], ["talk", "later"]]
+  },
+  {
+    "tag": "fallback",
+    "patterns": [],
+    "responses": [
+      "Sorry, I could not fully understand that. Please rephrase your question or contact support for help."
+    ],
+    "keywords": [],
+    "keyword_groups": []
+  }
+]

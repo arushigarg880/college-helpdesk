@@ -1,0 +1,37 @@
+.fees {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fees-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.fees-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fee-card {
+  min-width: 250px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+}
+
+.fee-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.fee-card p {
+  font-size: 1rem;
+  color: #333;
+}
